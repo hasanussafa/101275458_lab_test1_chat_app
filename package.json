@@ -1,0 +1,22 @@
+{
+  "name": "101275458_lab_test1_chat_app",
+  "version": "1.0.0",
+  "description": "Chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Safa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemoon": "^2.0.15"
+  }
+}
