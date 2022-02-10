@@ -1,9 +1,22 @@
+//Kazi Hasanus Safa
+//Id: 101275458
 const app = require('express')()
 const http = require('http').createServer(app)
 const cors = require('cors')
 const req = require('express/lib/request')
 const res = require('express/lib/response')
 const { Socket } = require('socket.io')
+
+//const mongoose = require('mongoose');
+//const employeeRouter = require('./chat.js');
+//var cors = require('cors')
+//const app = express();
+//app.use(express.json());
+//app.use(cors())
+//mongoose.connect('mongodb+srv://admin:Home123@@comp3123.ksc4r.mongodb.net/chat?retryWrites=true&w=majority',
+ // { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
+
+
 const PORT = 3000
 const io = require('socket.io')(http)
 app.use(cors())
