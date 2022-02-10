@@ -34,6 +34,15 @@
       <button type = "button" name = "button" onclick = "sendMessage()">
          Send Message!
       </button>
+      
+      <button type = "button" style="background-color: cornflowerblue;" id="myButton" class="float-left submit-button" name = "button" onclick = "logout()">
+         Logout
+      </button>
+      <script type="text/javascript">
+         document.getElementById("myButton").onclick = function () {
+             location.href = "login.html";
+         };
+     </script>
 
       <h3 class="heading2">Chat History</h3>
       <div id = "message-container"></div>

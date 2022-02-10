@@ -25,10 +25,14 @@
     <label for="psw-repeat" class="heading2"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
     
-    
+    <script type="text/javascript">
+        document.getElementById("signUp").onclick = function () {
+            location.href = "login.html";
+        };
+    </script>
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="submit" id="signUp" class="signupbtn">Sign Up</button>
     </div>
   </div>
 </form>

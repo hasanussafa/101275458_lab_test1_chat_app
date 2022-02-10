@@ -22,8 +22,12 @@
 
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
+      <script type="text/javascript">
+        document.getElementById("login").onclick = function () {
+            location.href = "index.html";
+        };
+    </script>
+      <button type="submit" id="login">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
